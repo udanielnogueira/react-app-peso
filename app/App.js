@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, ImageBackground, Image, TextInput, Button, TouchableWithoutFeedbackBase, Alert, TouchableOpacity, RadioButtom, Platform} from 'react-native';
+import { StyleSheet, Text, View, ImageBackground, Image, TextInput, Button, TouchableWithoutFeedbackBase, Alert, TouchableOpacity, RadioButtom, Platform } from 'react-native';
 
 type Props = {};
 
@@ -17,7 +17,7 @@ export default class App extends Component<Props> {
     let pH = (72.7*this.state.altura)-58
     let pM = (62.1*this.state.altura)-44.7
 
-    {/*x referencia uma variável do construtor*/}
+    {/*x referência uma variável do construtor*/}
     let x = this.state
     x.pesoH = pH
     x.pesoM = pM 
